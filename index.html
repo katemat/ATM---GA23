@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GA-23 Bank</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="mainWindow">
-                <div class="display">
-                    <header><h1>Welcome to the GA23 Bank</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA-23 Bank</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mainWindow">
+            <div class="display">
+                <header>
+                    <h1>Welcome to the GA23 Bank</h1>
                     <h2 class="balance-message">Current Balance: <span></span></h2>
                     <h2 class="message">To start please insert the card</h2>
-                    <div><input  class="user-input" type="number" placeholder="Enter amount"></div>
-                    </header>
-                    <div class="confirm-btn">
-                       <button class="confirm-deposit-btn">Confirm Deposit</button>
-                       <button class="confirm-withdraw-btn">Confirm Withdraw</button>
-                       <button class="return-btn">Back to Main </button>
-                    </div>
-                    <div class="action-btn">
-                        <button class="deposit-btn">Deposit</button>
-                        <button class="withdraw-btn">Withdraw</button>
-                        <button class="check-balance-btn">Balance</button>
-                    </div>
+                    <div><input class="user-input" type="number" placeholder="Enter amount"></div>
+                </header>
+                <div class="confirm-btn">
+                    <button class="confirm-deposit-btn">Confirm Deposit</button>
+                    <button class="confirm-withdraw-btn">Confirm Withdraw</button>
+                    <button class="return-btn">Back to Main </button>
                 </div>
-                <div class="money-slot">
-                    <div>
-                        <img class="cash-out" src="images/cashOutEmpty.png" width="200px">
-                    </div>
-                    <div class="arrow-gif">
-                        <img src="images/blinking-arrow-gif-6.gif" width="50px">
-                    </div>
-                </div>
-                <div class="num-pad">
-                    <div class="one-btn" value="1">1</div>
-                    <div class="two-btn" value="2">2</div>
-                    <div class="three-btn">3</div>
-                    <div class="clear-btn">Clear</div>
-                    <div class="four-btn">4</div>
-                    <div class="five-btn">5</div>
-                    <div class="six-btn">6</div>
-                    <div class="cancel-btn">Cancel</div>
-                    <div class="seven-btn">7</div>
-                    <div class="eight-btn">8</div>
-                    <div class="nine-btn">9</div>
-                    <div class="enter-btn">Enter</div>
-                    <div class="inactive"></div>
-                    <div class="zero-btn">0</div>
-                    <div class="inactive"></div>
-                    <div class="info-btn">Info</div>
+                <div class="action-btn">
+                    <button class="deposit-btn">Deposit</button>
+                    <button class="withdraw-btn">Withdraw</button>
+                    <button class="check-balance-btn">Balance</button>
                 </div>
             </div>
-            <aside>
+            <div class="money-slot">
                 <div>
-                    <button class="insert-btn" >Insert Card</button>
-                    <div>
-                        <button class="remove-card-btn" >Remove Card</button>
-                    </div>
+                    <img class="cash-out" src="images/cashOutEmpty.png" width="200px">
                 </div>
-                <div>
-                    <img class="card-in" src="images/Screen Shot 2020-04-02 at 11.17.49 pm.png" width="100px">
+                <div class="arrow-gif">
+                    <img src="images/blinking-arrow-gif-6.gif" width="50px">
                 </div>
-                <div>
-                    <h4>Insert Cash</h4>
-                </div>
-                <div>
-                    <img src="images/Screen Shot 2020-04-02 at 11.22.55 pm.png" width="120px">
-                </div>
-                <div class="accept">
-                    <h5>We accept</h5>
-                    <img src="images/Screen Shot 2020-04-02 at 11.37.36 pm.png"  width="100">
-                </div>  
-            </aside>
+            </div>
+            <div class="num-pad">
+                <div class="one-btn" value="1">1</div>
+                <div class="two-btn" value="2">2</div>
+                <div class="three-btn">3</div>
+                <div class="clear-btn">Clear</div>
+                <div class="four-btn">4</div>
+                <div class="five-btn">5</div>
+                <div class="six-btn">6</div>
+                <div class="cancel-btn">Cancel</div>
+                <div class="seven-btn">7</div>
+                <div class="eight-btn">8</div>
+                <div class="nine-btn">9</div>
+                <div class="enter-btn">Enter</div>
+                <div class="inactive"></div>
+                <div class="zero-btn">0</div>
+                <div class="inactive"></div>
+                <div class="info-btn">Info</div>
+            </div>
         </div>
+        <aside>
+            <div>
+                <button class="insert-btn">Insert Card</button>
+                <div>
+                    <button class="remove-card-btn">Remove Card</button>
+                </div>
+            </div>
+            <div>
+                <img class="card-in" src="images/Screen Shot 2020-04-02 at 11.17.49 pm.png" width="100px">
+            </div>
+            <div>
+                <h4>Insert Cash</h4>
+            </div>
+            <div>
+                <img src="images/Screen Shot 2020-04-02 at 11.22.55 pm.png" width="120px">
+            </div>
+            <div class="accept">
+                <h5>We accept</h5>
+                <img src="images/screenShot2.png.png" width="100">
+            </div>
+        </aside>
+    </div>
     <script src="atm_app.js"></script>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 # ATM - GA23 Bank
 
 **Link to the app ->**<https://katemat.github.io/ATM---GA23/>
-![alt text]("/images/screenShot.png" )
+![main page](/images/screenShot.png )
 
 ## Overview 
 
@@ -21,16 +21,16 @@ The aim of the Project to practice:
 
 ### Key Features
 
-- Simple animation and sound effects implemented
+- 🎶 Simple animation and sound effects implemented
 - The User can:
- + Deposit some amount
- + Withdraw some amount (no overdraw is allowed)
- + Check Balance
+ + 💰Deposit some amount
+ + 💰 Withdraw some amount (no overdraw is allowed)
+ + 🤑Check Balance
 
-![alt text]("/images/screenShot3.png" )
+![alt text](/images/screenShot3.png )
 
 
-#### Key Takeways / What I Learned
+#### 🗝 Key Takeways / What I Learned
 
 - Was a great experience to create this project from scratch 
 - Next time should spend a bit more time thinking about design so there will no need to change a lot during actual coding process
