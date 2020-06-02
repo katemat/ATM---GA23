@@ -1,6 +1,6 @@
 # ATM - GA23 Bank
 
-## You can check my [solution](https://katemat.github.io/ATM---GA23/)
+## You can check my [solution](https://katemat.github.io/ATM-GA23/)
 
 ![main page](/images/screenShot.png )
 
